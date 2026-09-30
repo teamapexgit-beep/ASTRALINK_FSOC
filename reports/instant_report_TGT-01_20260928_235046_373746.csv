@@ -1,0 +1,42 @@
+metric,value
+simulation_time_s,1.516918800003623
+frame,450
+target_id,TGT-01
+target_signature,GREEN-SQUARE
+target_count,1
+state,BENCHMARK
+fps,296.6539804232931
+update_rate_hz,30.0
+acquisition_time_s,0.03333333333333333
+average_tracking_error_px,2.6840664492434794
+maximum_tracking_error_px,6.082762530298219
+rmse_tracking_error_px,2.971777359452976
+centroid_error_px,2.6840664492434794
+lock_retention_percentage,100.0
+target_loss_percentage,0.0
+loss_events,0
+reacquisition_count,0
+average_reacquisition_s,
+average_processing_time_ms,1.7341833333274632
+max_processing_time_ms,6.961299997783499
+pan_deg,-1.1666666666666665
+tilt_deg,-1.1666666666666665
+noise,None
+noise_level,10
+turbulence_enabled,False
+turbulence_strength_px,10.0
+camera_jitter_enabled,False
+camera_jitter_px,5.0
+platform_motion_enabled,False
+platform_motion_px,10.0
+atmosphere,Clear
+atmosphere_level,25
+motion_pattern,synthetic_fsoc_beacon.mp4
+scenario,synthetic_fsoc_beacon.mp4
+camera_resolution,640 x 480
+fov,4.0 deg x 3.0 deg
+link_ready,False
+ground_truth_available,True
+source,benchmark video: synthetic_fsoc_beacon.mp4
+report_type,point_in_time_fsoc_performance
+generated_at,2026-09-28T23:50:46+05:30

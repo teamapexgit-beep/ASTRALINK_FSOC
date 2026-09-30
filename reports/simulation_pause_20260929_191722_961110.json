@@ -1,0 +1,65 @@
+{
+  "frames_processed": 3441,
+  "duration_s": 204.35389289999875,
+  "fps": 99.9809036440915,
+  "acquisition_time_s": 0.5333333333333333,
+  "average_tracking_error_px": 1.7072660053192097,
+  "maximum_tracking_error_px": 64.03124237432849,
+  "rmse_tracking_error_px": 2.331413441028545,
+  "average_centroid_error_px": 0.3903257933856805,
+  "maximum_centroid_error_px": 1.4918754424509162,
+  "lock_retention_percentage": 99.64695498676082,
+  "target_loss_percentage": 0.23536334215945867,
+  "target_loss_events": 4,
+  "successful_reacquisitions": 4,
+  "average_reacquisition_time_s": 0.2916666666666663,
+  "average_processing_time_ms": 10.001910000331312,
+  "max_processing_time_ms": 14.87470000574831,
+  "ground_truth_available": true,
+  "source": "live simulation",
+  "average_center_error_px": null,
+  "final_center_error_px": null,
+  "center_error_converged": false,
+  "coarse_locked": false,
+  "handoff_ready": false,
+  "maximum_reacquisition_time_s": null,
+  "metadata": {},
+  "ps_requirement_check": {
+    "overall": "FAIL",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": 0.5333333333333333,
+        "status": "PASS"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": 64.03124237432849,
+        "status": "FAIL"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": 0.23536334215945867,
+        "status": "PASS"
+      },
+      "center_error": {
+        "requirement": "<= 10 px",
+        "value": 64.03124237432849,
+        "status": "FAIL",
+        "basis": "tracking-error proxy"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": 0.2916666666666663,
+        "status": "PASS",
+        "basis": "maximum observed"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 99.9809036440915,
+        "status": "PASS"
+      }
+    }
+  },
+  "generated_utc": "2026-09-29T19:17:22.961248+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "frames_processed": 300,
+  "duration_s": 4.765335700009018,
+  "fps": 62.954641369637876,
+  "acquisition_time_s": null,
+  "average_tracking_error_px": null,
+  "maximum_tracking_error_px": null,
+  "rmse_tracking_error_px": null,
+  "average_centroid_error_px": null,
+  "maximum_centroid_error_px": null,
+  "lock_retention_percentage": null,
+  "target_loss_percentage": null,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 12.57607999529379,
+  "max_processing_time_ms": 26.366199948824942,
+  "ground_truth_available": false,
+  "source": "benchmark video: Benchmark vid 1.mp4",
+  "average_center_error_px": null,
+  "final_center_error_px": null,
+  "center_error_converged": false,
+  "coarse_locked": false,
+  "handoff_ready": false,
+  "maximum_reacquisition_time_s": null,
+  "metadata": {
+    "video_path": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\Benchmark vid 1.mp4",
+    "source_fps": 15.0,
+    "source_width": 854,
+    "source_height": 480,
+    "frame_count_hint": 300,
+    "preferred_signature": "GREEN-SQUARE",
+    "ground_truth_path": null,
+    "ground_truth_auto_detected": false,
+    "evaluation_started_frame": null,
+    "proximity_lock_frame": null,
+    "evaluation_started_after_lock": false,
+    "evaluated_frames": 0,
+    "final_center_error_px": null,
+    "average_center_error_steady_px": null,
+    "forced_loss_injected": false,
+    "forced_reacquisition_time_s": null,
+    "link_ready_ai_threshold": 0.2,
+    "output_video": "reports\\Benchmark_vid_1_tracked_20260927_021531.mp4",
+    "telemetry_csv": "reports\\Benchmark_vid_1_tracked_telemetry_20260927_021531.csv",
+    "cancelled": false
+  },
+  "ps_requirement_check": {
+    "overall": "PENDING",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": null,
+        "status": "PENDING"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": null,
+        "status": "PENDING"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": null,
+        "status": "PENDING"
+      },
+      "center_error": {
+        "requirement": "<= 10 px",
+        "value": null,
+        "status": "PENDING",
+        "basis": "tracking-error proxy"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": null,
+        "status": "PENDING",
+        "basis": "average observed"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 62.954641369637876,
+        "status": "PASS"
+      }
+    }
+  },
+  "generated_utc": "2026-09-26T20:45:36.605097+00:00"
+}

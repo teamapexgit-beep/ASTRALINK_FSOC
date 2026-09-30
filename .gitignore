@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+*.mp4
+
+# Local backup/source archives
+FSOC_WORKING_BACKUP.zip
+FSOC_CURRENT_SOURCE.zip

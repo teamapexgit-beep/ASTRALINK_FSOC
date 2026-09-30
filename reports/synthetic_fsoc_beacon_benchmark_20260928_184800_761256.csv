@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,6
+duration_s,0.04873529999895254
+fps,123.11404669980398
+acquisition_time_s,0.03333333333333333
+average_tracking_error_px,3.1622776601683795
+maximum_tracking_error_px,3.1622776601683795
+rmse_tracking_error_px,3.1622776601683795
+average_centroid_error_px,3.1622776601683795
+maximum_centroid_error_px,3.1622776601683795
+lock_retention_percentage,100.0
+target_loss_percentage,0.0
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,1.7137833328888519
+max_processing_time_ms,1.9859999993059319
+ground_truth_available,True
+source,benchmark video: synthetic_fsoc_beacon.mp4
+average_center_error_px,201.68216193913742
+final_center_error_px,201.68216193913742
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,"{""average_center_error_steady_px"": 201.68216193913742, ""cancelled"": true, ""evaluated_frames"": 1, ""evaluation_started_after_lock"": true, ""evaluation_started_frame"": 6, ""final_center_error_px"": 201.68216193913742, ""forced_loss_injected"": false, ""forced_reacquisition_time_s"": null, ""frame_count_hint"": 450, ""ground_truth_auto_detected"": true, ""ground_truth_path"": ""D:\\FSOC FOLDER ___\\FSOC\\synthetic_fsoc_beacon_groundtruth.csv"", ""link_ready_ai_threshold"": 0.2, ""live_paced"": true, ""output_video"": ""reports\\synthetic_fsoc_beacon_tracked_20260929_001800.mp4"", ""playback_seconds"": 0.23546649999843794, ""preferred_signature"": ""AUTO"", ""processing_seconds"": 0.010282699997333111, ""proximity_lock_frame"": null, ""source_fps"": 30.0, ""source_height"": 480, ""source_width"": 640, ""telemetry_csv"": ""reports\\synthetic_fsoc_beacon_tracked_telemetry_20260929_001800.csv"", ""video_path"": ""D:\\FSOC FOLDER ___\\FSOC\\synthetic_fsoc_beacon.mp4""}"
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PASS"", ""value"": 0.03333333333333333}, ""center_error"": {""basis"": ""measured final pointing offset"", ""requirement"": ""<= 10 px"", ""status"": ""FAIL"", ""value"": 201.68216193913742}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 123.11404669980398}, ""reacquisition_time"": {""basis"": ""average observed"", ""requirement"": ""<= 1.0 s"", ""status"": ""PENDING"", ""value"": null}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PASS"", ""value"": 0.0}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""PASS"", ""value"": 3.1622776601683795}}, ""overall"": ""FAIL""}"
+generated_utc,2026-09-28T18:48:00.761329+00:00

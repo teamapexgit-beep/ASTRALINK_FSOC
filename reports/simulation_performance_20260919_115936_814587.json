@@ -1,0 +1,22 @@
+{
+  "frames_processed": 510,
+  "duration_s": 62.47406200005207,
+  "fps": 8.163387871266877,
+  "acquisition_time_s": 0.6,
+  "average_tracking_error_px": 1.9817444219066938,
+  "maximum_tracking_error_px": 4.0,
+  "rmse_tracking_error_px": 2.0306974790749357,
+  "average_centroid_error_px": 0.2827348111483643,
+  "maximum_centroid_error_px": 0.4978041213448705,
+  "lock_retention_percentage": 96.66666666666667,
+  "target_loss_percentage": 0.0,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 7.395950006321073,
+  "max_processing_time_ms": 9.293099981732666,
+  "ground_truth_available": true,
+  "source": "live simulation",
+  "metadata": {},
+  "generated_utc": "2026-09-19T11:59:36.814675+00:00"
+}

@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,120
+duration_s,0.7221742999645357
+fps,166.16487184034784
+acquisition_time_s,0.03333333333333333
+average_tracking_error_px,0.36207036949273363
+maximum_tracking_error_px,0.6781081403434139
+rmse_tracking_error_px,0.39225974559880905
+average_centroid_error_px,0.36207036949273363
+maximum_centroid_error_px,0.6781081403434139
+lock_retention_percentage,100.0
+target_loss_percentage,0.0
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,4.212081666688998
+max_processing_time_ms,10.808099999849219
+ground_truth_available,True
+source,benchmark video: refinement4_synthetic.mp4
+average_center_error_px,102.51632892637227
+final_center_error_px,36.71511950137164
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,"{""average_center_error_steady_px"": 102.51632892637227, ""cancelled"": false, ""evaluated_frames"": 111, ""evaluation_started_after_lock"": true, ""evaluation_started_frame"": 6, ""final_center_error_px"": 36.71511950137164, ""forced_loss_injected"": true, ""forced_reacquisition_time_s"": 0.1333333333333333, ""frame_count_hint"": 120, ""ground_truth_auto_detected"": false, ""ground_truth_path"": ""reports\\refinement4_synthetic_groundtruth.csv"", ""link_ready_ai_threshold"": 0.2, ""live_paced"": false, ""output_video"": ""reports\\refinement4_synthetic_tracked_20260929_002918.mp4"", ""playback_seconds"": null, ""preferred_signature"": ""GREEN-SQUARE"", ""processing_seconds"": 0.5054498000026797, ""proximity_lock_frame"": null, ""source_fps"": 30.0, ""source_height"": 480, ""source_width"": 640, ""telemetry_csv"": ""reports\\refinement4_synthetic_tracked_telemetry_20260929_002918.csv"", ""video_path"": ""reports\\refinement4_synthetic.mp4""}"
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PASS"", ""value"": 0.03333333333333333}, ""center_error"": {""basis"": ""measured final pointing offset"", ""requirement"": ""<= 10 px"", ""status"": ""FAIL"", ""value"": 36.71511950137164}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 166.16487184034784}, ""reacquisition_time"": {""basis"": ""forced-loss rehearsal (measured)"", ""requirement"": ""<= 1.0 s"", ""status"": ""PASS"", ""value"": 0.1333333333333333}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PASS"", ""value"": 0.0}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""PASS"", ""value"": 0.6781081403434139}}, ""overall"": ""FAIL""}"
+generated_utc,2026-09-28T18:59:19.671180+00:00

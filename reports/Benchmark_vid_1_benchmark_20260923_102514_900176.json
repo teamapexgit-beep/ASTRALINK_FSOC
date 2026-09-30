@@ -1,0 +1,68 @@
+{
+  "frames_processed": 300,
+  "duration_s": 2.1608005000744015,
+  "fps": 138.8374354734138,
+  "acquisition_time_s": 0.06666666666666667,
+  "average_tracking_error_px": 0.0,
+  "maximum_tracking_error_px": 0.0,
+  "rmse_tracking_error_px": 0.0,
+  "average_centroid_error_px": 0.0,
+  "maximum_centroid_error_px": 0.0,
+  "lock_retention_percentage": 0.0,
+  "target_loss_percentage": 0.0,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 2.779888999648392,
+  "max_processing_time_ms": 6.337700062431395,
+  "ground_truth_available": false,
+  "source": "benchmark video: Benchmark vid 1.mp4",
+  "maximum_reacquisition_time_s": null,
+  "metadata": {
+    "video_path": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\Benchmark vid 1.mp4",
+    "source_fps": 15.0,
+    "source_width": 854,
+    "source_height": 480,
+    "frame_count_hint": 300,
+    "preferred_signature": "AUTO",
+    "ground_truth_path": null,
+    "ground_truth_auto_detected": false,
+    "evaluation_started_frame": 2,
+    "evaluation_started_after_lock": false,
+    "link_ready_ai_threshold": 0.45,
+    "output_video": "reports\\Benchmark_vid_1_tracked_20260923_155512.mp4",
+    "telemetry_csv": "reports\\Benchmark_vid_1_tracked_telemetry_20260923_155512.csv"
+  },
+  "ps_requirement_check": {
+    "overall": "PENDING",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": 0.06666666666666667,
+        "status": "PASS"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": 0.0,
+        "status": "PASS"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": 0.0,
+        "status": "PASS"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": null,
+        "status": "PENDING",
+        "basis": "average observed"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 138.8374354734138,
+        "status": "PASS"
+      }
+    }
+  },
+  "generated_utc": "2026-09-23T10:25:14.900312+00:00"
+}

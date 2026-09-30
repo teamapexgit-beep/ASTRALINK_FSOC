@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,300
+duration_s,5.1495982999913394
+fps,58.2569712283198
+acquisition_time_s,
+average_tracking_error_px,
+maximum_tracking_error_px,
+rmse_tracking_error_px,
+average_centroid_error_px,
+maximum_centroid_error_px,
+lock_retention_percentage,
+target_loss_percentage,
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,13.568177002404505
+max_processing_time_ms,37.32040000613779
+ground_truth_available,False
+source,benchmark video: Benchmark vid 1.mp4
+average_center_error_px,
+final_center_error_px,
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,"{""average_center_error_steady_px"": null, ""cancelled"": false, ""evaluated_frames"": 0, ""evaluation_started_after_lock"": false, ""evaluation_started_frame"": null, ""final_center_error_px"": null, ""forced_loss_injected"": false, ""forced_reacquisition_time_s"": null, ""frame_count_hint"": 300, ""ground_truth_auto_detected"": false, ""ground_truth_path"": null, ""link_ready_ai_threshold"": 0.2, ""output_video"": ""reports\\Benchmark_vid_1_tracked_20260927_021711.mp4"", ""preferred_signature"": ""GREEN-SQUARE"", ""proximity_lock_frame"": null, ""source_fps"": 15.0, ""source_height"": 480, ""source_width"": 854, ""telemetry_csv"": ""reports\\Benchmark_vid_1_tracked_telemetry_20260927_021711.csv"", ""video_path"": ""C:\\Users\\Samruddhi\\OneDrive\\Desktop\\Benchmark vid 1.mp4""}"
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PENDING"", ""value"": null}, ""center_error"": {""basis"": ""tracking-error proxy"", ""requirement"": ""<= 10 px"", ""status"": ""PENDING"", ""value"": null}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 58.2569712283198}, ""reacquisition_time"": {""basis"": ""average observed"", ""requirement"": ""<= 1.0 s"", ""status"": ""PENDING"", ""value"": null}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PENDING"", ""value"": null}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""PENDING"", ""value"": null}}, ""overall"": ""PENDING""}"
+generated_utc,2026-09-26T20:47:16.201424+00:00

@@ -1,0 +1,21 @@
+Metric,Value
+frames_processed,120
+duration_s,1.151633999979822
+fps,104.19977180432547
+acquisition_time_s,0.03333333333333333
+average_tracking_error_px,148.16281820810173
+maximum_tracking_error_px,210.28789789238942
+rmse_tracking_error_px,159.6273263991267
+average_centroid_error_px,0.36687545585427667
+maximum_centroid_error_px,0.6936036692521308
+lock_retention_percentage,99.16666666666667
+target_loss_percentage,0.0
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,5.812790833685236
+max_processing_time_ms,34.860099985962734
+ground_truth_available,True
+source,benchmark video: refinement4_synthetic.mp4
+metadata,"{""frame_count_hint"": 120, ""ground_truth_path"": ""reports\\refinement4_synthetic_groundtruth.csv"", ""output_video"": ""reports\\refinement4_synthetic_tracked_20260919_143429.mp4"", ""preferred_signature"": ""GREEN-SQUARE"", ""source_fps"": 30.0, ""source_height"": 480, ""source_width"": 640, ""telemetry_csv"": ""reports\\refinement4_synthetic_tracked_telemetry_20260919_143429.csv"", ""video_path"": ""reports\\refinement4_synthetic.mp4""}"
+generated_utc,2026-09-19T09:04:30.956917+00:00

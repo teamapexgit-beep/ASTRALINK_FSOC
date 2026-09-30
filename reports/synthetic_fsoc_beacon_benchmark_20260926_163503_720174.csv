@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,450
+duration_s,5.966747300000861
+fps,75.41797521740783
+acquisition_time_s,
+average_tracking_error_px,
+maximum_tracking_error_px,
+rmse_tracking_error_px,
+average_centroid_error_px,0.0
+maximum_centroid_error_px,0.0
+lock_retention_percentage,
+target_loss_percentage,
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,9.713136888005668
+max_processing_time_ms,15.316199976950884
+ground_truth_available,True
+source,benchmark video: synthetic_fsoc_beacon.mp4
+average_center_error_px,
+final_center_error_px,
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,"{""average_center_error_steady_px"": null, ""evaluated_frames"": 0, ""evaluation_started_after_lock"": false, ""evaluation_started_frame"": null, ""final_center_error_px"": null, ""forced_loss_injected"": false, ""forced_reacquisition_time_s"": null, ""frame_count_hint"": 450, ""ground_truth_auto_detected"": false, ""ground_truth_path"": ""C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FSOC\\synthetic_fsoc_beacon_groundtruth.csv"", ""link_ready_ai_threshold"": 0.45, ""output_video"": ""reports\\synthetic_fsoc_beacon_tracked_20260926_220457.mp4"", ""preferred_signature"": ""GREEN-SQUARE"", ""proximity_lock_frame"": null, ""source_fps"": 30.0, ""source_height"": 480, ""source_width"": 640, ""telemetry_csv"": ""reports\\synthetic_fsoc_beacon_tracked_telemetry_20260926_220457.csv"", ""video_path"": ""C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FSOC\\synthetic_fsoc_beacon.mp4""}"
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PENDING"", ""value"": null}, ""center_error"": {""basis"": ""tracking-error proxy"", ""requirement"": ""<= 10 px"", ""status"": ""PENDING"", ""value"": null}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 75.41797521740783}, ""reacquisition_time"": {""basis"": ""average observed"", ""requirement"": ""<= 1.0 s"", ""status"": ""PENDING"", ""value"": null}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PENDING"", ""value"": null}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""PENDING"", ""value"": null}}, ""overall"": ""PENDING""}"
+generated_utc,2026-09-26T16:35:03.720272+00:00

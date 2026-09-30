@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,1697
+duration_s,81.26960639993194
+fps,20.881115033939935
+acquisition_time_s,0.5666666666666667
+average_tracking_error_px,1.6360867243541506
+maximum_tracking_error_px,18.0
+rmse_tracking_error_px,1.7963773834561867
+average_centroid_error_px,0.38974676296118693
+maximum_centroid_error_px,0.6938516707417139
+lock_retention_percentage,99.87973541791942
+target_loss_percentage,0.0
+target_loss_events,2
+successful_reacquisitions,2
+average_reacquisition_time_s,0.2999999999999998
+average_processing_time_ms,6.109253332639733
+max_processing_time_ms,8.509800070896745
+ground_truth_available,True
+source,live simulation
+average_center_error_px,
+final_center_error_px,
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,{}
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PASS"", ""value"": 0.5666666666666667}, ""center_error"": {""basis"": ""tracking-error proxy"", ""requirement"": ""<= 10 px"", ""status"": ""FAIL"", ""value"": 18.0}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 20.881115033939935}, ""reacquisition_time"": {""basis"": ""maximum observed"", ""requirement"": ""<= 1.0 s"", ""status"": ""PASS"", ""value"": 0.2999999999999998}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PASS"", ""value"": 0.0}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""FAIL"", ""value"": 18.0}}, ""overall"": ""FAIL""}"
+generated_utc,2026-09-23T20:04:26.221365+00:00

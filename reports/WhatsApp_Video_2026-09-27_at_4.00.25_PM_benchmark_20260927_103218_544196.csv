@@ -1,0 +1,28 @@
+Metric,Value
+frames_processed,600
+duration_s,10.89100210000106
+fps,55.09134921569261
+acquisition_time_s,0.03333333333333333
+average_tracking_error_px,
+maximum_tracking_error_px,
+rmse_tracking_error_px,
+average_centroid_error_px,
+maximum_centroid_error_px,
+lock_retention_percentage,100.0
+target_loss_percentage,0.0
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,12.97829083335273
+max_processing_time_ms,36.699899999803165
+ground_truth_available,False
+source,benchmark video: WhatsApp Video 2026-09-27 at 4.00.25 PM.mp4
+average_center_error_px,322.41959602887596
+final_center_error_px,313.1932310890515
+center_error_converged,False
+coarse_locked,False
+handoff_ready,False
+maximum_reacquisition_time_s,
+metadata,"{""average_center_error_steady_px"": 322.41959602887596, ""cancelled"": false, ""evaluated_frames"": 591, ""evaluation_started_after_lock"": true, ""evaluation_started_frame"": 6, ""final_center_error_px"": 313.1932310890515, ""forced_loss_injected"": true, ""forced_reacquisition_time_s"": 0.13333333333333286, ""frame_count_hint"": 600, ""ground_truth_auto_detected"": false, ""ground_truth_path"": null, ""link_ready_ai_threshold"": 0.2, ""output_video"": ""reports\\WhatsApp_Video_2026-09-27_at_4.00.25_PM_tracked_20260927_160207.mp4"", ""preferred_signature"": ""AUTO"", ""proximity_lock_frame"": null, ""source_fps"": 30.0, ""source_height"": 720, ""source_width"": 1280, ""telemetry_csv"": ""reports\\WhatsApp_Video_2026-09-27_at_4.00.25_PM_tracked_telemetry_20260927_160207.csv"", ""video_path"": ""C:\\Users\\Atul\\Downloads\\WhatsApp Video 2026-09-27 at 4.00.25 PM.mp4""}"
+ps_requirement_check,"{""checks"": {""acquisition_time"": {""requirement"": ""<= 2.0 s"", ""status"": ""PASS"", ""value"": 0.03333333333333333}, ""center_error"": {""basis"": ""measured final pointing offset"", ""requirement"": ""<= 10 px"", ""status"": ""FAIL"", ""value"": 313.1932310890515}, ""processing_speed"": {""requirement"": "">= 20 FPS"", ""status"": ""PASS"", ""value"": 55.09134921569261}, ""reacquisition_time"": {""basis"": ""forced-loss rehearsal (measured)"", ""requirement"": ""<= 1.0 s"", ""status"": ""PASS"", ""value"": 0.13333333333333286}, ""target_loss"": {""requirement"": ""< 5%"", ""status"": ""PASS"", ""value"": 0.0}, ""tracking_error"": {""requirement"": ""<= 10 px"", ""status"": ""PENDING"", ""value"": null}}, ""overall"": ""FAIL""}"
+generated_utc,2026-09-27T10:32:18.544267+00:00

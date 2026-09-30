@@ -1,0 +1,86 @@
+{
+  "frames_processed": 450,
+  "duration_s": 1.8611391999984335,
+  "fps": 241.78739559103303,
+  "acquisition_time_s": 0.03333333333333333,
+  "average_tracking_error_px": 2.6840664492434794,
+  "maximum_tracking_error_px": 6.082762530298219,
+  "rmse_tracking_error_px": 2.971777359452976,
+  "average_centroid_error_px": 2.6840664492434794,
+  "maximum_centroid_error_px": 6.082762530298219,
+  "lock_retention_percentage": 100.0,
+  "target_loss_percentage": 0.0,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 2.0344855555756816,
+  "max_processing_time_ms": 7.4414000009710435,
+  "ground_truth_available": true,
+  "source": "benchmark video: synthetic_fsoc_beacon.mp4",
+  "average_center_error_px": 63.185719798245245,
+  "final_center_error_px": 9.219544457292887,
+  "center_error_converged": true,
+  "coarse_locked": true,
+  "handoff_ready": false,
+  "maximum_reacquisition_time_s": null,
+  "metadata": {
+    "video_path": "D:\\FSOC FOLDER ___\\FSOC\\synthetic_fsoc_beacon.mp4",
+    "source_fps": 30.0,
+    "source_width": 640,
+    "source_height": 480,
+    "frame_count_hint": 450,
+    "preferred_signature": "AUTO",
+    "ground_truth_path": "D:\\FSOC FOLDER ___\\FSOC\\synthetic_fsoc_beacon_groundtruth.csv",
+    "ground_truth_auto_detected": true,
+    "evaluation_started_frame": 6,
+    "proximity_lock_frame": 440,
+    "evaluation_started_after_lock": true,
+    "evaluated_frames": 440,
+    "final_center_error_px": 9.219544457292887,
+    "average_center_error_steady_px": 63.185719798245245,
+    "forced_loss_injected": true,
+    "forced_reacquisition_time_s": 0.13333333333333286,
+    "link_ready_ai_threshold": 0.2,
+    "output_video": "reports\\synthetic_fsoc_beacon_tracked_20260928_230002.mp4",
+    "telemetry_csv": "reports\\synthetic_fsoc_beacon_tracked_telemetry_20260928_230002.csv",
+    "cancelled": false
+  },
+  "ps_requirement_check": {
+    "overall": "PASS",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": 0.03333333333333333,
+        "status": "PASS"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": 6.082762530298219,
+        "status": "PASS"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": 0.0,
+        "status": "PASS"
+      },
+      "center_error": {
+        "requirement": "<= 10 px",
+        "value": 9.219544457292887,
+        "status": "PASS",
+        "basis": "measured final pointing offset"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": 0.13333333333333286,
+        "status": "PASS",
+        "basis": "forced-loss rehearsal (measured)"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 241.78739559103303,
+        "status": "PASS"
+      }
+    }
+  },
+  "generated_utc": "2026-09-28T17:30:05.099731+00:00"
+}

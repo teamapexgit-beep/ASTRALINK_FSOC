@@ -1,0 +1,54 @@
+{
+  "frames_processed": 154,
+  "duration_s": 47.410829800064676,
+  "fps": 3.2482030086676508,
+  "acquisition_time_s": 0.43333333333333335,
+  "average_tracking_error_px": 1.7162715409057323,
+  "maximum_tracking_error_px": 5.385164807134504,
+  "rmse_tracking_error_px": 1.846198988252716,
+  "average_centroid_error_px": 0.38595060221476696,
+  "maximum_centroid_error_px": 0.6729723888538734,
+  "lock_retention_percentage": 100.0,
+  "target_loss_percentage": 0.0,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 7.5105966806101305,
+  "max_processing_time_ms": 9.273300063796341,
+  "ground_truth_available": true,
+  "source": "live simulation",
+  "maximum_reacquisition_time_s": null,
+  "metadata": {},
+  "ps_requirement_check": {
+    "overall": "FAIL",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": 0.43333333333333335,
+        "status": "PASS"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": 5.385164807134504,
+        "status": "PASS"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": 0.0,
+        "status": "PASS"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": null,
+        "status": "PENDING",
+        "basis": "average observed"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 3.2482030086676508,
+        "status": "FAIL"
+      }
+    }
+  },
+  "generated_utc": "2026-09-23T14:59:18.671128+00:00"
+}

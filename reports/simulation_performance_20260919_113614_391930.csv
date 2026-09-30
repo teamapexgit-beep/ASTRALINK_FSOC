@@ -1,0 +1,21 @@
+Metric,Value
+frames_processed,311
+duration_s,14.62220799998613
+fps,21.269017647696913
+acquisition_time_s,0.6333333333333333
+average_tracking_error_px,1.2302768459033786
+maximum_tracking_error_px,4.123105625617661
+rmse_tracking_error_px,1.4214351253925233
+average_centroid_error_px,0.5304825441177882
+maximum_centroid_error_px,1.2463837037684287
+lock_retention_percentage,94.21221864951768
+target_loss_percentage,0.0
+target_loss_events,0
+successful_reacquisitions,0
+average_reacquisition_time_s,
+average_processing_time_ms,12.311633336745823
+max_processing_time_ms,13.71530001051724
+ground_truth_available,True
+source,live simulation
+metadata,{}
+generated_utc,2026-09-19T11:36:14.392015+00:00

@@ -1,0 +1,65 @@
+{
+  "frames_processed": 196,
+  "duration_s": 9.251771100098267,
+  "fps": 21.185132865848594,
+  "acquisition_time_s": 0.4666666666666667,
+  "average_tracking_error_px": 3.0850057590288382,
+  "maximum_tracking_error_px": 7.280109889280518,
+  "rmse_tracking_error_px": 3.186378110720834,
+  "average_centroid_error_px": 0.385067513681833,
+  "maximum_centroid_error_px": 0.6951039185530037,
+  "lock_retention_percentage": 100.0,
+  "target_loss_percentage": 0.0,
+  "target_loss_events": 0,
+  "successful_reacquisitions": 0,
+  "average_reacquisition_time_s": null,
+  "average_processing_time_ms": 6.337653329440704,
+  "max_processing_time_ms": 7.573100039735436,
+  "ground_truth_available": true,
+  "source": "live simulation",
+  "average_center_error_px": null,
+  "final_center_error_px": null,
+  "center_error_converged": false,
+  "coarse_locked": false,
+  "handoff_ready": false,
+  "maximum_reacquisition_time_s": null,
+  "metadata": {},
+  "ps_requirement_check": {
+    "overall": "PENDING",
+    "checks": {
+      "acquisition_time": {
+        "requirement": "<= 2.0 s",
+        "value": 0.4666666666666667,
+        "status": "PASS"
+      },
+      "tracking_error": {
+        "requirement": "<= 10 px",
+        "value": 7.280109889280518,
+        "status": "PASS"
+      },
+      "target_loss": {
+        "requirement": "< 5%",
+        "value": 0.0,
+        "status": "PASS"
+      },
+      "center_error": {
+        "requirement": "<= 10 px",
+        "value": 7.280109889280518,
+        "status": "PASS",
+        "basis": "tracking-error proxy"
+      },
+      "reacquisition_time": {
+        "requirement": "<= 1.0 s",
+        "value": null,
+        "status": "PENDING",
+        "basis": "average observed"
+      },
+      "processing_speed": {
+        "requirement": ">= 20 FPS",
+        "value": 21.185132865848594,
+        "status": "PASS"
+      }
+    }
+  },
+  "generated_utc": "2026-09-26T08:15:51.492355+00:00"
+}
