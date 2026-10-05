@@ -6,7 +6,7 @@
 **Application:** ASTRALINK  
 **Version:** Pre-deployment / Demonstration Build (Stage 5)  
 **Installation:** To be completed after final packaging  
-
+****PASSWORD:isro@1969****
 ---
 
 ## Table of Contents
@@ -153,7 +153,7 @@ To prevent unauthorized configuration changes and support point-in-time test val
 │               ASTRALINK SECURITY GATE                  │
 │                                                        │
 │   Enter Access Key to unlock FSOC Control System       │
-│   Password: [ * * * * * * * * ]                        │
+│   Password: [ * * * * * * * ]                        │
 │                                                        │
 │   Default Access Key: isro@1969                        │
 │   [ UNLOCK SYSTEM ]                                    │
